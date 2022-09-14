@@ -84,9 +84,10 @@ for line in io.lines("test_io.lua") do
 -- 以只读方式打开文件
 file = io.open("test_io.lua", "r")
 
-file:seek("end",-5)
+--file:seek("end",-4)
 --file:seek("end")
---file:seek("set",3)
+file:seek("set",4)
+print(file:seek("set",4))
 print(file:read("*a"))
 
 -- 关闭打开的文件
