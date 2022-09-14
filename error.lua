@@ -13,3 +13,9 @@ local function add2(a,b)
 end
 
 add2(10)
+
+--pcall
+
+--xpcall
+
+--debug
